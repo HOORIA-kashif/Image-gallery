@@ -116,7 +116,7 @@ export default function ImageGallery() {
       </AnimatePresence>
 
     
-      <div className="relative z-10 text-center p-6 backdrop-blur-lg rounded-xl shadow-lg max-w-lg">
+      <div className="relative z-10 text-center p-6 backdrop-blur-lg rounded-xl max-w-lg">
         <h1 className="text-6xl font-bold">{images[currentIndex].title}</h1>
         <p className="mt-2 text-gray-300">{images[currentIndex].description}</p>
         <Button className="mt-4 bg-green-600 hover:bg-green-700">
